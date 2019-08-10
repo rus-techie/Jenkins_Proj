@@ -6,7 +6,11 @@ public class DemoJava {
 		char reverse[] = char[len];
 		for (int i=0, j=len-1;j>=0; i++, j--)
 		{
-			reverse[i] = ch[j];	
+			//reverse[i] = ch[j];
+			
+			// Reverse using charAt string method
+			reverse[i] = S.charAt(j);
+	
 		}
 		String reversedString = new String (reverse);
 		System.out.println("Reversed string is " + reversedString);
