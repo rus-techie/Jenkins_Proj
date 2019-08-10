@@ -8,7 +8,8 @@ public class DemoJava {
 		{
 			reverse[i] = ch[j];	
 		}
-	System.out.println("");
+		String reversedString = new String (reverse);
+		System.out.println("Reversed string is " + reversedString);
 	}
 	
 	public static void main(String[] args) {
