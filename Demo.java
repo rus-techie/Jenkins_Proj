@@ -9,11 +9,16 @@ public class DemoJava {
 			//reverse[i] = ch[j];
 			
 			// Reverse using charAt string method
-			reverse[i] = S.charAt(j);
+			//reverse[i] = S.charAt(j);
 	
+			//Reverse usign String builder
+			StringBuilder sb = new StringBuilder();
+			 sb = sb.append(S.charAt(j));
+			
 		}
-		String reversedString = new String (reverse);
-		System.out.println("Reversed string is " + reversedString);
+		//String reversedString = new String (reverse);
+		//System.out.println("Reversed string is " + reversedString);
+		System.out.println("Reversed string is " + sb);
 	}
 	
 	public static void main(String[] args) {
