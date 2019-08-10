@@ -4,6 +4,7 @@ public class DemoJava {
 		char ch[] = S.toCharArray();
 		int len = S.length();
 		char reverse[] = char[len];
+		StringBuilder sb = new StringBuilder();
 		for (int i=0, j=len-1;j>=0; i++, j--)
 		{
 			//reverse[i] = ch[j];
@@ -12,9 +13,7 @@ public class DemoJava {
 			//reverse[i] = S.charAt(j);
 	
 			//Reverse usign String builder
-			StringBuilder sb = new StringBuilder();
 			 sb = sb.append(S.charAt(j));
-			
 		}
 		//String reversedString = new String (reverse);
 		//System.out.println("Reversed string is " + reversedString);
